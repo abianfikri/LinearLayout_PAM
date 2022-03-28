@@ -10,6 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LinearLayout">
         <activity
+            android:name=".ActivityLihatData"
+            android:parentActivityName=".Home_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Home_Activity"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

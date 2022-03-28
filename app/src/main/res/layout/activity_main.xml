@@ -17,7 +17,7 @@
         tools:ignore="ImageContrastCheck" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -30,7 +30,7 @@
         android:textColorHint="#757575" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/pas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
